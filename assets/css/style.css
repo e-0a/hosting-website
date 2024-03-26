@@ -580,3 +580,13 @@ nav.navbar-white .fa-bars{
 }
 
 /* --------------- Small screen for listing page --------------- */
+
+@media only screen and (max-width: 700px){
+    .list-container{
+        margin-top: 150px;
+    }
+
+    .left-col, .right-col, .house-img, .house-info{
+        flex-basis: 100%;
+    }
+}
